@@ -1,59 +1,94 @@
 
 html {
     font-size: 62.5%;
+    
 }
 
 body {
-    background-color: #f5f5f5; 
+    color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+   
 }
 
 .main-container {
     display: block;
     width: 100vw;
-    margin: 0 auto;
+    background: #254159;
+   
+}
+.containerlogo{
+    background: #254159;
 }
 
 .container {
+    background: #385874;
     display: block;
     float: left;
     padding: 20px;
     max-width: 100%;
-    margin: 0 auto;
-    max-width: 1198px;
+   
+}
+.destaque{
+    color:orangered;
 }
 
+
+#logo1 {
+    width: 20%;
+    background:#b8c8d6;
+    cursor: pointer;
+}
+#logo1:hover {
+    background:whitesmoke;
+}
+#menulateral{
+    margin-top: 20px;
+    background:#b8c8d6;
+}
+#menulateral:hover{
+   background: whitesmoke;
+   transform: all 300ms ease;
+   cursor: pointer;
+}
+
+#clickhere:hover{
+    background:orangered;
+    cursor: pointer;
+}
 header {
-    background: #fff;
+    background:#254159;
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
-    border-bottom: 1px solid #254159;
+    width: 70%;
+    border-bottom: 5px dashed #b8c8d6;
 }
 
 h1 {
     font-size: 2.4rem;
-    color: #254159;
+    color: whitesmoke;
     margin-bottom: 20px;
+    justify-content: baseline;
 }
 
 h2 {
+    margin-top: 20px;
     font-size: 2rem;
-    color: #254159;
+    color: whitesmoke;
     margin-bottom: 20px;
 }
 
 h3 {
     font-size: 1.8rem;
-    color: #254159;
+    color: whitesmoke;
     margin-bottom: 20px;
     padding-top: 10px;
 }
 
 h4 {
     font-size: 1.6rem;
-    color: #385874;
+    color: whitesmoke;
     margin-bottom: 10px;
     padding-top: 10px;
 }
@@ -61,24 +96,23 @@ h4 {
 p {
     margin-bottom: 10px;
     line-height: 1.4;
-    color: #333;
+    color: whitesmoke;
+    justify-content:end;
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
-#tenho-interesse {
+#cognito {
     background-color: #b8c8d6;
-    width: 100%;
+ 
+}
+.cog-form_content{
+    background: #385874 !important;
 }
 
-#tenho-interesse form,
-.cognito.c-med .c-forms-form,
-.cognito.c-med .c-forms-form div {
-    background-color: #b8c8d6 !important;
-}
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
@@ -95,15 +129,17 @@ ol li {
 }
 
 section {
-    background-color: #fff;
+    background-color:#385874;
     display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */ 
     padding: 20px;
-    width: 100%;
+    width: 70%;
+    
 }
 
 section nav {
+    margin-left: 0;
     display: block;
     float: left;
     width: 30%;
@@ -132,6 +168,7 @@ section article {
     display: block;
     float: left;
     width: 70%;
+    
 }
 
 footer {
@@ -139,7 +176,8 @@ footer {
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
+    width: 70%;
+    border-top: 5px dashed #b8c8d6;
 }
 
 footer p {
@@ -147,12 +185,23 @@ footer p {
     font-size: 1.4rem;
 }
 
-footer small {
+
+
+.containercog{
+    max-width: 100% !important;
+    margin-left: 20%;
+    justify-content: center;
+    text-align: center;
+}
+.containerfoot{
+    justify-content: center;
+    text-align: center;
     font-size: 80%;
     display: block;
 }
 
 .cognito {
+    width: 70% !important;
     height: 350px !important;
     overflow: hidden !important;
 }
